@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36377A8AC471B91EE3131E5E /* Pods_CarCinema.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9258E4399D9C6BBF72D5991C /* Pods_CarCinema.framework */; };
+		526ACC7E258059EC001F3842 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526ACC7D258059EC001F3842 /* Validators.swift */; };
+		526ACC8125805A07001F3842 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526ACC8025805A07001F3842 /* AuthError.swift */; };
+		5291C6AB2575A217002171EE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291C6AA2575A217002171EE /* InfoViewController.swift */; };
+		5291C6AF25771590002171EE /* AuthResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291C6AE25771590002171EE /* AuthResult.swift */; };
+		5291C6B225771DFA002171EE /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291C6B125771DFA002171EE /* MoviesTableViewController.swift */; };
+		52921CD7256F3B0F0001032F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52921CD6256F3B0F0001032F /* GoogleService-Info.plist */; };
+		52921CF6256F40450001032F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52921CF5256F40450001032F /* LoginViewController.swift */; };
+		52921CFA256F41350001032F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52921CF9256F41350001032F /* SignUpViewController.swift */; };
+		52921CFD256F41410001032F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52921CFC256F41410001032F /* AuthViewController.swift */; };
 		52EA0D28255F042A004A72B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA0D27255F042A004A72B8 /* AppDelegate.swift */; };
 		52EA0D2A255F042A004A72B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA0D29255F042A004A72B8 /* SceneDelegate.swift */; };
-		52EA0D2C255F042A004A72B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA0D2B255F042A004A72B8 /* ViewController.swift */; };
 		52EA0D2F255F042A004A72B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EA0D2D255F042A004A72B8 /* Main.storyboard */; };
 		52EA0D31255F042B004A72B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EA0D30255F042B004A72B8 /* Assets.xcassets */; };
 		52EA0D34255F042B004A72B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EA0D32255F042B004A72B8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DFECEC07C76ADF4F2BB6BF1 /* Pods-CarCinema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCinema.release.xcconfig"; path = "Target Support Files/Pods-CarCinema/Pods-CarCinema.release.xcconfig"; sourceTree = "<group>"; };
+		526ACC7D258059EC001F3842 /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		526ACC8025805A07001F3842 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		5291C6AA2575A217002171EE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5291C6AE25771590002171EE /* AuthResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResult.swift; sourceTree = "<group>"; };
+		5291C6B125771DFA002171EE /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		52921CD6256F3B0F0001032F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		52921CF5256F40450001032F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52921CF9256F41350001032F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		52921CFC256F41410001032F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		52EA0D24255F042A004A72B8 /* CarCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EA0D27255F042A004A72B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EA0D29255F042A004A72B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52EA0D2B255F042A004A72B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52EA0D2E255F042A004A72B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52EA0D30255F042B004A72B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EA0D33255F042B004A72B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52EA0D35255F042B004A72B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9258E4399D9C6BBF72D5991C /* Pods_CarCinema.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarCinema.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDDDACDE7C1E822E903EB23 /* Pods-CarCinema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCinema.debug.xcconfig"; path = "Target Support Files/Pods-CarCinema/Pods-CarCinema.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36377A8AC471B91EE3131E5E /* Pods_CarCinema.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				52EA0D26255F042A004A72B8 /* CarCinema */,
 				52EA0D25255F042A004A72B8 /* Products */,
+				63D885AADE660DBE3C94B040 /* Pods */,
+				537B5EB482462260B5196D9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,64 @@
 		52EA0D26255F042A004A72B8 /* CarCinema */ = {
 			isa = PBXGroup;
 			children = (
-				52EA0D27255F042A004A72B8 /* AppDelegate.swift */,
-				52EA0D29255F042A004A72B8 /* SceneDelegate.swift */,
-				52EA0D2B255F042A004A72B8 /* ViewController.swift */,
+				52EA0D3E255F044E004A72B8 /* Model */,
+				52EA0D3C255F0434004A72B8 /* ViewControllers */,
+				52921CF5256F40450001032F /* LoginViewController.swift */,
 				52EA0D2D255F042A004A72B8 /* Main.storyboard */,
+				52921CF9256F41350001032F /* SignUpViewController.swift */,
+				5291C6AE25771590002171EE /* AuthResult.swift */,
+				526ACC7D258059EC001F3842 /* Validators.swift */,
+				52921CFC256F41410001032F /* AuthViewController.swift */,
+				5291C6B125771DFA002171EE /* MoviesTableViewController.swift */,
+				526ACC8025805A07001F3842 /* AuthError.swift */,
+				5291C6AA2575A217002171EE /* InfoViewController.swift */,
 				52EA0D30255F042B004A72B8 /* Assets.xcassets */,
 				52EA0D32255F042B004A72B8 /* LaunchScreen.storyboard */,
+				52921CD6256F3B0F0001032F /* GoogleService-Info.plist */,
 				52EA0D35255F042B004A72B8 /* Info.plist */,
+				52EA0D3F255F045C004A72B8 /* Support */,
 			);
 			path = CarCinema;
+			sourceTree = "<group>";
+		};
+		52EA0D3C255F0434004A72B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52EA0D3E255F044E004A72B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52EA0D3F255F045C004A72B8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				52EA0D27255F042A004A72B8 /* AppDelegate.swift */,
+				52EA0D29255F042A004A72B8 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		537B5EB482462260B5196D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9258E4399D9C6BBF72D5991C /* Pods_CarCinema.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D885AADE660DBE3C94B040 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DDDDACDE7C1E822E903EB23 /* Pods-CarCinema.debug.xcconfig */,
+				0DFECEC07C76ADF4F2BB6BF1 /* Pods-CarCinema.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52EA0D38255F042B004A72B8 /* Build configuration list for PBXNativeTarget "CarCinema" */;
 			buildPhases = (
+				7A5083B1AE28B2374EEC81EE /* [CP] Check Pods Manifest.lock */,
 				52EA0D20255F042A004A72B8 /* Sources */,
 				52EA0D21255F042A004A72B8 /* Frameworks */,
 				52EA0D22255F042A004A72B8 /* Resources */,
+				A8AA3ABDF517A93ADC3B0090 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +200,70 @@
 			files = (
 				52EA0D34255F042B004A72B8 /* LaunchScreen.storyboard in Resources */,
 				52EA0D31255F042B004A72B8 /* Assets.xcassets in Resources */,
+				52921CD7256F3B0F0001032F /* GoogleService-Info.plist in Resources */,
 				52EA0D2F255F042A004A72B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A5083B1AE28B2374EEC81EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarCinema-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8AA3ABDF517A93ADC3B0090 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarCinema/Pods-CarCinema-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarCinema/Pods-CarCinema-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarCinema/Pods-CarCinema-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52EA0D20255F042A004A72B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EA0D2C255F042A004A72B8 /* ViewController.swift in Sources */,
+				52921CFA256F41350001032F /* SignUpViewController.swift in Sources */,
+				52921CF6256F40450001032F /* LoginViewController.swift in Sources */,
+				52921CFD256F41410001032F /* AuthViewController.swift in Sources */,
+				5291C6AB2575A217002171EE /* InfoViewController.swift in Sources */,
+				526ACC8125805A07001F3842 /* AuthError.swift in Sources */,
+				5291C6AF25771590002171EE /* AuthResult.swift in Sources */,
 				52EA0D28255F042A004A72B8 /* AppDelegate.swift in Sources */,
+				5291C6B225771DFA002171EE /* MoviesTableViewController.swift in Sources */,
 				52EA0D2A255F042A004A72B8 /* SceneDelegate.swift in Sources */,
+				526ACC7E258059EC001F3842 /* Validators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +407,14 @@
 		};
 		52EA0D39255F042B004A72B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDDDACDE7C1E822E903EB23 /* Pods-CarCinema.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q48726KS4H;
 				INFOPLIST_FILE = CarCinema/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +422,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = noname.CarCinema;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		52EA0D3A255F042B004A72B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFECEC07C76ADF4F2BB6BF1 /* Pods-CarCinema.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q48726KS4H;
 				INFOPLIST_FILE = CarCinema/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = noname.CarCinema;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
