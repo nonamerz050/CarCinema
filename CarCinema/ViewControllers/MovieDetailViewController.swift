@@ -1,17 +1,27 @@
 //
-//  InfoViewController.swift
+//  MovieDetailViewController.swift
 //  CarCinema
 //
-//  Created by MacBook Pro on 01.12.2020.
+//  Created by MacBook Pro on 21.12.2020.
 //
 
 import UIKit
+import Firebase
+import FirebaseStorage
 
-class InfoViewController: UIViewController {
+class MovieDetailViewController: UIViewController {
 
+    var movie: Movie!
+    
+    @IBOutlet weak var movieNameLabel: UILabel!
+    @IBOutlet weak var movieGenreLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        movieNameLabel.text = movie.movieName
+        movieGenreLabel.text = movie.movieGenre
+        
+    
         // Do any additional setup after loading the view.
     }
     
