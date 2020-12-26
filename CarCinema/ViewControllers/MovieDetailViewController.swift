@@ -15,11 +15,15 @@ class MovieDetailViewController: UIViewController {
     
     @IBOutlet weak var movieNameLabel: UILabel!
     @IBOutlet weak var movieGenreLabel: UILabel!
+    @IBOutlet weak var movieDurationLabel: UILabel!
+    @IBOutlet weak var movieDescriptionLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         movieNameLabel.text = movie.movieName
-        movieGenreLabel.text = movie.movieGenre
+        movieGenreLabel.text = "Жанр: \(movie.movieGenre)"
+        movieDurationLabel.text = "Длительность: \(movie.movieDuration) мин."
+        movieDescriptionLabel.text = movie.movieDescription
         
     
         // Do any additional setup after loading the view.

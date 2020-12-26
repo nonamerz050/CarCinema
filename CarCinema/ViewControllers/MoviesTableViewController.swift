@@ -23,6 +23,8 @@ class MoviesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupNavigationBar()
+        
         ref = Database.database().reference().child("Monday")
         ref?.observe(.childAdded){ [weak self](snapshot) in
             let key = snapshot.key
@@ -48,10 +50,10 @@ class MoviesTableViewController: UITableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
 
-        weekDayRef = Database.database().reference()
-        weekDayRef?.observe(.childAdded){ (snapshot) in
-            let key = snapshot.key
-        }
+//        weekDayRef = Database.database().reference()
+//        weekDayRef?.observe(.childAdded){ (snapshot) in
+//            let key = snapshot.key
+//        }
         return 1
     }
 
@@ -63,7 +65,9 @@ class MoviesTableViewController: UITableViewController {
         let movie = movies[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath)
         cell.textLabel?.text = movie.movieName
+        cell.textLabel?.textColor = .white
         cell.detailTextLabel?.text = movie.movieGenre
+        cell.detailTextLabel?.textColor = .white
         
 //        cell.textLabel?.text = movie.name
         return cell
