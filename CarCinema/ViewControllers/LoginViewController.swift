@@ -23,13 +23,6 @@ class LoginViewController: UIViewController {
         emailTextField.textColor = .black
         passwordTextField.textColor = .black
     }
-    // переход по сигвею
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "moviesVC"{
-//            let
-//        }
-//    }
     
     @IBAction func backButtonPressed(_ sender: UIButton) {
         navigationController?.popToRootViewController(animated: true)
@@ -66,20 +59,5 @@ class LoginViewController: UIViewController {
                 self.view.window?.makeKeyAndVisible()
             }
         }
-        
-       // SwiftBook exapmle
-    
-    /*    Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (result, error) in
-            if error != nil {
-                
-            } else {
-                
-            }
-        } */
-        
     }
-    
-    
-    
-
 }

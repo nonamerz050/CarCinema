@@ -19,7 +19,6 @@
 		52921CFA256F41350001032F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52921CF9256F41350001032F /* SignUpViewController.swift */; };
 		52921CFD256F41410001032F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52921CFC256F41410001032F /* AuthViewController.swift */; };
 		529BD7FA258BEF7B0034DCF6 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BD7F9258BEF7B0034DCF6 /* Movies.swift */; };
-		529BD7FE258FEC410034DCF6 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BD7FD258FEC410034DCF6 /* Weekday.swift */; };
 		529BD80125901E2D0034DCF6 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BD80025901E2D0034DCF6 /* MovieDetailViewController.swift */; };
 		52C4D3B12587CABB002BE09A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4D3B02587CABB002BE09A /* Constants.swift */; };
 		52C4D3B72587EB4F002BE09A /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C4D3B62587EB4F002BE09A /* AddMovieViewController.swift */; };
@@ -44,7 +43,6 @@
 		52921CF9256F41350001032F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		52921CFC256F41410001032F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		529BD7F9258BEF7B0034DCF6 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
-		529BD7FD258FEC410034DCF6 /* Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
 		529BD80025901E2D0034DCF6 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		52C4D3B02587CABB002BE09A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		52C4D3B62587EB4F002BE09A /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				529BD7F9258BEF7B0034DCF6 /* Movies.swift */,
-				529BD7FD258FEC410034DCF6 /* Weekday.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -303,7 +300,6 @@
 			files = (
 				526ACCB525805F2C001F3842 /* UIViewController + Extension.swift in Sources */,
 				52921CFA256F41350001032F /* SignUpViewController.swift in Sources */,
-				529BD7FE258FEC410034DCF6 /* Weekday.swift in Sources */,
 				52921CF6256F40450001032F /* LoginViewController.swift in Sources */,
 				52C4D3B72587EB4F002BE09A /* AddMovieViewController.swift in Sources */,
 				52921CFD256F41410001032F /* AuthViewController.swift in Sources */,

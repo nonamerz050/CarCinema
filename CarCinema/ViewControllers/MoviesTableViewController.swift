@@ -49,11 +49,6 @@ class MoviesTableViewController: UITableViewController {
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-
-//        weekDayRef = Database.database().reference()
-//        weekDayRef?.observe(.childAdded){ (snapshot) in
-//            let key = snapshot.key
-//        }
         return 1
     }
 
@@ -69,20 +64,11 @@ class MoviesTableViewController: UITableViewController {
         cell.detailTextLabel?.text = movie.movieGenre
         cell.detailTextLabel?.textColor = .white
         
-//        cell.textLabel?.text = movie.name
         return cell
     }
 
 
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
